@@ -1,3 +1,4 @@
-arun = input("Enter something : ")
-for i in range(1,len(arun)+1):
-    print(arun[len(arun)-i],end="")
+x = input("Enter something : ")
+
+for i in range(1,len(x)+1):
+    print(x[len(x)-i],end="")
